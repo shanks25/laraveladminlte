@@ -9,8 +9,8 @@ class PagesController extends Controller
 {
 	public function index()
 	{
-
-		return 'asdf';
+      return view('admin.pages.dashboard2');
+		 
 	}
 
 }

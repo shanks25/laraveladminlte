@@ -57,7 +57,7 @@ class RouteServiceProvider extends ServiceProvider
             'middleware' => ['web', 'admin', 'auth:admin'],
             'prefix' => 'admin',
             'as' => 'admin.',
-            'namespace' => $this->namespace,
+            'namespace' => 'App\Http\Controllers\Admin',
         ], function ($router) {
             require base_path('routes/admin.php');
         });

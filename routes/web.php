@@ -30,12 +30,7 @@ Route::group(['prefix' => 'admin'], function () {
 
   Route::get('logout','AdminAuth\LoginController@logout');
 
-  Route::group([ 'middleware' => ['web', 'auth:admin']],function () {
-
-    Route::get('test','Admin\PagesController@index');
-
-  });
-
+ 
 });
 
 Auth::routes();
