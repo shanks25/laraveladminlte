@@ -1,5 +1,5 @@
  @extends('admin.layout.app')
- @section('main-content')
+ @section('content')
 
 
 <div class="content-wrapper">

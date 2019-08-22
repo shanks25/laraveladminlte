@@ -2,7 +2,7 @@
 @include('admin.layout.header')
 @include('admin.layout.sidebar')
 
-@section('main-content')
+@section('content')
 
 @show
 
